@@ -1,0 +1,19 @@
+<img src="SolarSystem.xcf" width="1500" height="1094" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Cex -->
+<area shape="poly" coords="2,222,27,222,75,295,93,399,92,488,77,532,58,587,27,609,2,604,2,578" href="thesun.mp3" />
+<area shape="circle" coords="182,427,12" target="audio" href="mercury.mp3" />
+<area shape="circle" coords="220,425,18" target="audio" href="venus.mp3" />
+<area shape="circle" coords="268,425,19" target="audio" href="earth.mp3" />
+<area shape="circle" coords="307,425,14" target="audio" href="mars.mp3" />
+<area shape="circle" coords="516,422,86" target="audio" href="jupiter.mp3" />
+<area shape="circle" coords="891,422,41" target="audio" href="untitled.mp3" />
+<area shape="circle" coords="996,425,38" target="audio" href="neptune.mp3" />
+<area shape="rect" coords="564,914,770,973" target="audio" href="comet.mp3" />
+<area shape="rect" coords="470,10,1035,136" target="audio" href="solar.mp3" />
+</map>
