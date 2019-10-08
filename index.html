@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title> My first webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/3e3c097caa.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <style>
+         	@media only screen and (min-width:961px)
+		{
+            .img {display:none}
+            .tablet {display:none;}
+			.phone {display:none;}
+		}
+        video#vid{
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            background-color: #000;
+        }
+        .overlayleft{
+            position:absolute;
+            float:left;
+            color: white;  
+            top: 130px; 
+            left: 100px; 
+        }
+        .overlaymid{
+            position:absolute;
+            float:middle;
+            color: white;  
+            top: 130px;
+            right:500px;  
+        }
+        .overlayright{
+            position:absolute;
+            float:right;
+            color: white;  
+            top: 500px;
+            right: 100px;  
+        }
+        .overlay1{
+            position:absolute;
+            float:right;    
+            font-style: Arial;
+            font-size: larger; 
+            color: white;
+            right: 100px;
+            top: 90px;
+            margin: 10px;
+            padding: 5px 5px;
+        }
+        .overlay2{
+            position:absolute;
+            float:right;
+            color: white;
+            font-size: larger;     
+            right: 100px;
+            top: 130px;
+            margin: 10px;
+            padding: 5px 5px;
+
+        }
+        .overlay3{
+            position:absolute;
+            float:right;
+            color: white; 
+            font-size: larger;    
+            right: 100px;
+            top: 160px;
+            margin: 10px;
+            padding: 5px 5px;
+
+        }
+        .overlay4{
+            position:absolute;
+            float:right;
+            color: white;
+            font-size: larger;    
+            right: 100px;
+            top: 190px;
+            margin: 10px;
+            padding: 5px 5px;
+
+        }
+    
+        </style>
+          <script >
+                $(document).ready(function(){
+                    $(".prepend").prepend($("<a href='http://bridgew.edu'>Visit us </a>"));
+                    $(".append").append($("<a href='https://henrigit.github.io/resume.html'>Resume </a>"));
+                    $("#append").append(jQueryLink);
+                });
+               
+            </script> 
+    </head>
+    <body>
+        <video id="vid" controls autoplay loop>
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+            </video>
+        <ul class="fa-ul">
+            <div class = "overlay1"><li><i class="fas fa-laptop-code"></i><s> Work</s></li></div>          
+            <div class= "overlay4"><li><i class="fas fa-paper-plane"></i><s> Hobby</s></li></div>
+            <div class="container">
+                    <div class="row">
+                      
+                      <div class = "overlayleft"><div class="col-lg">
+                        <p><s>
+                                I am a Computer-Science major 
+                                <p>and this is for Web Application.</p> 
+                        </s></p>
+                        
+                      </div></div>
+
+                      <div class="overlaymid"><div class="col-lg">
+                           <div class ="desktop"><img src="images/pooh.jpg"></div> 
+                      </div></div>
+
+                      <div class = "overlayright"><div class="col-lg">
+                        <p>
+                                I like watching movies.
+                        </p>
+                       
+                      </div></div>
+                
+                    </div>
+                    <footer class="text-left">
+                            <div class = "overlay2"> <li><i class="fas fa-file"></i><div class ="append"></div></li></div>
+                    </footer>
+                  </div>
+            
+        </ul> 
+      
+    </body>
+</html>
